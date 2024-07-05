@@ -2,31 +2,33 @@
 A console application to manage restaurants - asked in flipkart machine coding round to be done in 90 minutes.
 
 Design a system for managing a restaurant. The system should handle the following functionalities:
-Allow the restaurant admin to define the number of tables. 
-Allow restaurant admin to add, update, or remove items from the menu. Each menu item should have attributes such as name, price, veg / non-veg and category (starter, main course, dessert).
-Allow customers to browse the menu and allow filtering on factors (veg / non-veg, category), add items to their order, specify quantities, and place the order.
-Allow restaurant admin to manage tables in the restaurant as in number of tables.
-Calculate the total bill for each order, including taxes and any additional charges. Provide options for customers to pay the bill via various payment options, such as cash, credit/debit card, or online payment (card payment levy additional charges).
-Bonus Functionality:
-Provide a system for kitchen staff to view incoming orders, mark them as prepared, and notify wait-staff when orders are ready for serving.
-Allow multiple orders for the same table (AddItems even after 1 order was placed)
-Your task is to design the class structure and define the methods for implementing this system. You have 90 minutes to complete this task. Ensure your design is well-structured, addresses the given requirements, and demonstrates good object-oriented design principles.
-Demoable test cases:
-Add a new item to the menu (e.g., "Spaghetti Carbonara, 499 Rupees, Veg, Starter").
-Update the price of an existing menu item (e.g., Update the price of "Cheeseburger" to 299).
-Remove an item from the menu (e.g., Remove "French Fries").
-Allocate an empty table to the customer (e.g., Allocate Table)
-Mark the table as occupied and then vacant after bill payment.
-Make a reservation for a specific table (e.g., Reserve Table Number “7”)
-Display the status of all tables to show changes.
-Browse the menu with / without filters (veg / non-veg, category) and add items to an order (e.g., add "2 Margherita Pizza" and "1 Caesar Salad").
-Remove an item from the order (e.g., remove "1 Caesar Salad").
-Change the quantity of an item in the order (e.g., change the quantity of "Margherita Pizza" to 3).
+
+- Allow the restaurant admin to define the number of tables.
+- Allow restaurant admin to add, update, or remove items from the menu. Each menu item should have attributes such as name, price, veg / non-veg and category (starter, main course, dessert).
+- Allow customers to browse the menu and allow filtering on factors (veg / non-veg, category), add items to their order, specify quantities, and place the order.
+- Allow restaurant admin to manage tables in the restaurant as in number of tables.
+- Calculate the total bill for each order, including taxes and any additional charges. Provide options for customers to pay the bill via various payment options, such as cash, credit/debit card, or online payment (card payment levy additional charges).
+### Bonus Functionality:
+- Provide a system for kitchen staff to view incoming orders, mark them as prepared, and notify wait-staff when orders are ready for serving.
+- Allow multiple orders for the same table (AddItems even after 1 order was placed)
+- Your task is to design the class structure and define the methods for implementing this system. You have 90 minutes to complete this task. Ensure your design is well-structured, addresses the given requirements, and demonstrates good object-oriented design principles.
+  
+### Demoable test cases:
+- Add a new item to the menu (e.g., "Spaghetti Carbonara, 499 Rupees, Veg, Starter").
+- Update the price of an existing menu item (e.g., Update the price of "Cheeseburger" to 299).
+- Remove an item from the menu (e.g., Remove "French Fries").
+- Allocate an empty table to the customer (e.g., Allocate Table)
+- Mark the table as occupied and then vacant after bill payment.
+- Make a reservation for a specific table (e.g., Reserve Table Number “7”)
+- Display the status of all tables to show changes.
+- Browse the menu with / without filters (veg / non-veg, category) and add items to an order (e.g., add "2 Margherita Pizza" and "1 Caesar Salad").
+- Remove an item from the order (e.g., remove "1 Caesar Salad").
+- Change the quantity of an item in the order (e.g., change the quantity of "Margherita Pizza" to 3).
 Place the order.
-Customers can ask for the bill. Get preferred payment type and calculate and show the total bill for an order with different items and quantities.
-Apply taxes and any additional charges to the bill based on payment type selected by customer
-Accept payment in various forms (Cash, CreditCard, UPI).
-Take additional 1% processing fees for CreditCard usage
+- Customers can ask for the bill. Get preferred payment type and calculate and show the total bill for an order with different items and quantities.
+- Apply taxes and any additional charges to the bill based on payment type selected by customer
+- Accept payment in various forms (Cash, CreditCard, UPI).
+- Take additional 1% processing fees for CreditCard usage
 
 ### Bonus Test Cases:
 View incoming orders in the kitchen.
